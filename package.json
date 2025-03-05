@@ -1,0 +1,7 @@
+{
+  "name": "react-popup-draggable-resizable",
+  "packageManager": "yarn@4.7.0",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
