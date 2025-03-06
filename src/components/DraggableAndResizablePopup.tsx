@@ -4,7 +4,7 @@ import useDraggable from "../hooks/useDraggable";
 import useResizable from "../hooks/useResizable";
 import type { DraggablePopupProps } from "../types";
 
-const DraggablePopup = (props: DraggablePopupProps) => {
+const DraggableAndResizablePopup = (props: DraggablePopupProps) => {
   const {
     title = "Popup",
     width = 400,
@@ -103,4 +103,4 @@ const styles: Record<string, React.CSSProperties> = {
   },
 };
 
-export default DraggablePopup;
+export default DraggableAndResizablePopup;

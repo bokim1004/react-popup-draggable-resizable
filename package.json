@@ -1,9 +1,23 @@
 {
-  "name": "react-popup-draggable-resizable",
+  "name": "@chloebok-dev/react-popup-draggable-resizable",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./components/DraggableAndResizablePopup": "./dist/components/DraggableAndResizablePopup.js"
+  },
+  "files": [
+    "dist"
+  ],
   "packageManager": "yarn@4.7.0",
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@types/react-dom": "^19",
+    "bunchee": "^6.4.0",
     "typescript": "^5.8.2"
   },
   "dependencies": {
