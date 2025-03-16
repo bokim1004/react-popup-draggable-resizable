@@ -1,13 +1,19 @@
 {
    "name": "@chloebok-dev/react-popup-draggable-resizable",
    "type": "module",
-   "version": "0.0.0",
    "license": "MIT",
    "main": "./dist/index.js",
    "types": "./dist/index.d.ts",
    "scripts": {
       "build": "bunchee",
       "release": "changeset publish"
+   },
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/bokim1004/react-popup-draggable-resizable"
+   },
+   "publishConfig": {
+      "access": "public"
    },
    "exports": {
       ".": {
