@@ -1,7 +1,7 @@
 {
    "name": "@chloebok-dev/react-popup-draggable-resizable",
    "type": "module",
-   "version": "0.0.1",
+   "version": "0.0.2",
    "license": "MIT",
    "main": "./dist/index.js",
    "types": "./dist/index.d.ts",
@@ -26,7 +26,9 @@
          "import": "./dist/components/DraggableAndResizablePopup.js"
       }
    },
-   "files": ["dist"],
+   "files": [
+      "dist"
+   ],
    "packageManager": "yarn@4.7.0",
    "devDependencies": {
       "@biomejs/biome": "^1.9.4",
