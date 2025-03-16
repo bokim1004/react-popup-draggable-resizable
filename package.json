@@ -1,37 +1,36 @@
 {
-  "name": "@chloebok-dev/react-popup-draggable-resizable",
-  "type": "module",
-  "version": "0.0.1",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "scripts": {
-    "build": "bunchee",
-    "release": "changeset publish"
-  },
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.js"
-    },
-    "./components/DraggableAndResizablePopup": {
-      "types": "./dist/components/DraggableAndResizablePopup.d.ts",
-      "import": "./dist/components/DraggableAndResizablePopup.js"
-    }
-  },
-  "files": [
-    "dist"
-  ],
-  "packageManager": "yarn@4.7.0",
-  "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
-    "@changesets/cli": "^2.28.1",
-    "@types/react-dom": "^19",
-    "bunchee": "^6.4.0",
-    "typescript": "^5.8.2"
-  },
-  "dependencies": {
-    "@types/react": "^19.0.10",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
-  }
+   "name": "@chloebok-dev/react-popup-draggable-resizable",
+   "type": "module",
+   "version": "0.0.0",
+   "license": "MIT",
+   "main": "./dist/index.js",
+   "types": "./dist/index.d.ts",
+   "scripts": {
+      "build": "bunchee",
+      "release": "changeset publish"
+   },
+   "exports": {
+      ".": {
+         "types": "./dist/index.d.ts",
+         "import": "./dist/index.js"
+      },
+      "./components/DraggableAndResizablePopup": {
+         "types": "./dist/components/DraggableAndResizablePopup.d.ts",
+         "import": "./dist/components/DraggableAndResizablePopup.js"
+      }
+   },
+   "files": ["dist"],
+   "packageManager": "yarn@4.7.0",
+   "devDependencies": {
+      "@biomejs/biome": "^1.9.4",
+      "@changesets/cli": "^2.28.1",
+      "@types/react-dom": "^19",
+      "bunchee": "^6.4.0",
+      "typescript": "^5.8.2"
+   },
+   "dependencies": {
+      "@types/react": "^19.0.10",
+      "react": "^19.0.0",
+      "react-dom": "^19.0.0"
+   }
 }
